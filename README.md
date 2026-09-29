@@ -32,11 +32,16 @@ sha256sum ../proclaim-demo-content-<version>.zip
 
 ## Status
 
-Early scaffold — see [Joomla-Bible-Study/Proclaim#2178](https://github.com/Joomla-Bible-Study/Proclaim/issues/2178) for the design discussion and [#2145](https://github.com/Joomla-Bible-Study/Proclaim/issues/2145) for the epic. Still open:
+See [Joomla-Bible-Study/Proclaim#2178](https://github.com/Joomla-Bible-Study/Proclaim/issues/2178) for the design discussion and [#2145](https://github.com/Joomla-Bible-Study/Proclaim/issues/2145) for the epic.
 
-- The actual content set (`content/manifest.json` is not yet populated).
-- ARS cataloguing — needs a Category and Update Stream created via the ARS admin UI (`plg_webservices_ars` does not expose a creation API for either yet); `cwm-build.config.json` in this repo carries placeholder ids until then.
-- The wizard-side fetch (Proclaim issue #2177) and the network-fetch/checksum-verification path it needs.
+`content/manifest.json` is drafted and live-verified against a real Proclaim install (imports cleanly, every state renders correctly, removes cleanly). Still open before a release can be cut:
+
+- **A real YouTube URL.** `mediafiles[0].params.filename` is a placeholder — needs a rights-clear, real public video before this ships.
+- **A second location.** `Cwmcontentimporter` has no `locations` import section yet — tracked as [Proclaim#2196](https://github.com/Joomla-Bible-Study/Proclaim/issues/2196).
+- **Podcast enclosure, local-file and external-embed media types are not demonstrated at all**, by decision — avoids any new CWM hosting commitment for demo audio/video. YouTube (real public link) is the only media type this set demonstrates.
+- **ARS cataloguing** — needs a Category and Update Stream created via the ARS admin UI (`plg_webservices_ars` does not expose a creation API for either yet); `cwm-build.config.json` in this repo carries placeholder ids until then.
+- **The wizard-side fetch** (Proclaim issue #2177) and the network-fetch/checksum-verification path it needs.
+- **No images yet** — `content/images/` is empty; teacher photos were deliberately skipped for this draft.
 
 ## License
 
