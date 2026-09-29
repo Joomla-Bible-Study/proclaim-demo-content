@@ -1,0 +1,15 @@
+{
+    "_comment": "Not a Joomla extension — no extension/build/manifests block, unlike every other cwm-build-tools consumer. The archive is content/manifest.json + content/images/, zipped directly (see README). ars.categoryId and ars.updateStreamId are placeholders: no 'Demo Content' category exists yet, and plg_webservices_ars has no creation API for either — both need creating via the ARS admin UI (System -> Manage -> Akeeba Release System) before cwm-ars-publish can be used here. Fill in the real ids once created.",
+    "ars": {
+        "endpoint": "https://www.christianwebministries.org",
+        "categoryId": 0,
+        "updateStreamId": 0,
+        "tokenItem": "CWM ARS API Token",
+        "tokenVault": "CWM"
+    },
+    "github": {
+        "owner": "Joomla-Bible-Study",
+        "repo": "proclaim-demo-content",
+        "releaseBranch": "main"
+    }
+}
