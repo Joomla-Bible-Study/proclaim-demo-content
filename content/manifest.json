@@ -1,0 +1,109 @@
+{
+    "teachers": [
+        {
+            "id": 1,
+            "teachername": "Rebecca Lawson",
+            "alias": "rebecca-lawson",
+            "title": "Pastor of Discipleship",
+            "information": "Rebecca has served in pastoral ministry for over a decade, with a particular focus on helping believers build sustainable habits of prayer and study. She holds that the Christian life is less about a single moment of decision and more about a long walk of ordinary faithfulness.",
+            "published": 1
+        },
+        {
+            "id": 2,
+            "teachername": "Marcus Chen",
+            "alias": "marcus-chen",
+            "title": "Teaching Elder",
+            "information": "Marcus teaches through Scripture verse by verse, drawing out how ancient texts speak directly into modern life. He is especially drawn to the New Testament letters and their practical instruction for community life.",
+            "published": 1
+        }
+    ],
+    "series": [
+        {
+            "id": 1,
+            "series_text": "Growing in Faith",
+            "alias": "growing-in-faith",
+            "teacher_id": 1,
+            "description": "A four-part series on the foundations of the Christian life: what faith is, how prayer shapes us, what it means to grow through discipleship, and how to remain steadfast when it's hard.",
+            "published": 1
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "studytitle": "The Foundation of Faith",
+            "alias": "the-foundation-of-faith",
+            "studydate": "2026-01-04 09:00:00",
+            "series_id": 1,
+            "teacher_ids": [1],
+            "scriptures": [
+                {"reference_text": "Hebrews 11:1-6", "bible_version": "kjv"}
+            ],
+            "topics": ["JBS_TOP_FAITH"],
+            "published": 1,
+            "studyintro": "What does it actually mean to have faith? Not a vague optimism, but the confident assurance the writer of Hebrews describes — substance for what we hope for, evidence for what we cannot yet see.",
+            "studytext": "What does it actually mean to have faith? Not a vague optimism, but the confident assurance the writer of Hebrews describes — substance for what we hope for, evidence for what we cannot yet see.\n\nHebrews 11 opens with a definition before it opens with examples: faith is the substance of things hoped for, the evidence of things not seen. That ordering matters. Before we're given a single name — Abel, Enoch, Noah — we're given the shape faith takes in a life. It isn't a feeling that arrives and then fades. It's a settled confidence that acts on what God has said, even before the outcome is visible.\n\nVerse 6 goes further: without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who seek him. Two beliefs, held together — that God is there, and that God responds. Drop either one and what's left isn't faith; it's either abstract theism or wishful thinking.\n\nThe practical question this leaves us with isn't \"do I have enough faith,\" as though it were a quantity to accumulate, but \"what am I actually trusting God for right now, that I cannot yet see the outcome of?\" That's where this series begins, because everything that follows — prayer, discipleship, endurance — grows out of this same soil."
+        },
+        {
+            "id": 2,
+            "studytitle": "A Life of Prayer",
+            "alias": "a-life-of-prayer",
+            "studydate": "2026-01-11 09:00:00",
+            "series_id": 1,
+            "teacher_ids": [1, 2],
+            "scriptures": [
+                {"reference_text": "Luke 11:1-13", "bible_version": "kjv"}
+            ],
+            "topics": ["JBS_TOP_PRAYER", "JBS_TOP_WORSHIP"],
+            "published": 1,
+            "studyintro": "The disciples' request wasn't \"teach us what to believe\" but \"teach us to pray.\" They had watched Jesus pray and wanted whatever it was that shaped him.",
+            "studytext": "The disciples' request wasn't \"teach us what to believe\" but \"teach us to pray.\" They had watched Jesus pray and wanted whatever it was that shaped him.\n\nWhat he gives them in Luke 11 is short — a handful of lines, not a system. Father, hallowed be your name. Your kingdom come. Give us each day our daily bread. Forgive us, as we forgive. Lead us not into temptation. It reads less like a formula to recite and more like a set of postures: dependence, trust, forgiveness offered before it's demanded back.\n\nJesus doesn't stop at the words, though. He follows the prayer with a story about a persistent neighbor knocking at midnight, and then a promise: ask, and it will be given; seek, and you will find; knock, and the door will be opened. Not because God needs to be worn down like a reluctant neighbor, but because — as the passage's last line makes clear — if we, being imperfect, know how to give good gifts to our children, how much more will our Father give the Holy Spirit to those who ask.\n\nPrayer, in other words, isn't primarily a technique for getting things. It's the ordinary way a dependent person stays in relationship with the God who is already inclined to give good things. That reframes the whole practice: not \"am I praying correctly enough to get results,\" but \"am I staying close enough to keep asking.\""
+        },
+        {
+            "id": 3,
+            "studytitle": "Growing Through Discipleship",
+            "alias": "growing-through-discipleship",
+            "studydate": "2026-01-18 09:00:00",
+            "series_id": 1,
+            "teacher_ids": [2],
+            "scriptures": [
+                {"reference_text": "1 John 4:7-12", "bible_version": "kjv"}
+            ],
+            "topics": ["JBS_TOP_LOVE", "JBS_TOP_GODS_LOVE"],
+            "published": 0,
+            "studyintro": "John doesn't leave love as an abstraction. He roots it in something that already happened — God sent his Son — and then makes it a test: whoever does not love does not know God.",
+            "studytext": "John doesn't leave love as an abstraction. He roots it in something that already happened — God sent his Son — and then makes it a test: whoever does not love does not know God.\n\nThis passage is doing something specific in the structure of 1 John. Love isn't presented as one virtue among many for a mature believer to eventually add to a list. It's presented as the evidence that a person actually knows God at all — because, as verse 8 puts it plainly, God is love. Not merely that God is loving as one attribute alongside others, but that love is definitional to who he is.\n\nVerse 10 is the hinge: love isn't that we loved God, but that he loved us, and sent his Son. This matters because it removes love from the category of achievement. We are not first told to love better and then, having succeeded, made worthy of God's love. The order runs the other way. His love comes first, unearned, and ours is a response — \"we love, because he first loved us,\" as the chapter goes on to say.\n\nDiscipleship, then, isn't primarily about acquiring more information or more discipline. It's about being shaped by a love already given, until loving others stops being effortful performance and starts being the natural overflow of someone who has actually received something."
+        },
+        {
+            "id": 4,
+            "studytitle": "Steadfast in Trials",
+            "alias": "steadfast-in-trials",
+            "studydate": "2025-06-15 09:00:00",
+            "series_id": 1,
+            "teacher_ids": [1],
+            "scriptures": [
+                {"reference_text": "James 1:2-8", "bible_version": "kjv"}
+            ],
+            "topics": ["JBS_TOP_FAITH"],
+            "published": 2,
+            "studyintro": "James doesn't tell his readers to feel joyful about trials. He tells them to count it as joy — a decision, not an emotion — because of what the trial is producing.",
+            "studytext": "James doesn't tell his readers to feel joyful about trials. He tells them to count it as joy — a decision, not an emotion — because of what the trial is producing.\n\nThe logic of the passage runs forward from cause to effect: the testing of your faith produces patience, and patience, allowed to finish its work, leaves a person lacking nothing. Trials aren't treated as random obstacles to survive but as a process with a purpose, provided endurance is allowed to run its full course rather than being shortcut.\n\nThen the passage pivots to a specific need that trials expose: wisdom. If anyone lacks wisdom — and difficulty has a way of revealing exactly how much we lack — let him ask of God, who gives to all generously and without reproach. No qualifying exam, no minimum faith requirement to clear before asking is allowed. Just a straightforward instruction to ask.\n\nThe warning that follows, about the one who doubts being like a wave tossed by the wind, isn't there to shame uncertainty. It's there to describe what happens when a request for wisdom is made half-heartedly, hedging on whether God actually answers. This older message closes out the series where it began — back at that same foundational question of Hebrews 11: do we actually believe God responds to those who seek him?"
+        }
+    ],
+    "mediafiles": [
+        {
+            "study_id": 1,
+            "server_name": "Legacy YouTube",
+            "params": {
+                "filename": "TODO-REPLACE-WITH-A-REAL-PUBLIC-YOUTUBE-URL",
+                "size": 5000000,
+                "mime_type": "video/mp4",
+                "media_hours": "00",
+                "media_minutes": "28",
+                "media_seconds": "00",
+                "link_type": "0",
+                "player": "1",
+                "popup": "3"
+            }
+        }
+    ]
+}
